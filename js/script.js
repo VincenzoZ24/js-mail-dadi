@@ -8,7 +8,7 @@ let utente = prompt("scrivi la tua e-mail");
     let numComputer =  Math.floor(Math.random() * 6) + 1;
     alert( " il numero del tuo avversario é: " + numComputer);
     if( numPlayer > numComputer){
-        alert("HAI VITO");
+        alert("HAI VInTO");
     }else{
         alert ("HAI PERSO");
     };
