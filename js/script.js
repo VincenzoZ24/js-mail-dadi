@@ -4,9 +4,15 @@ let utente = prompt("scrivi la tua e-mail");
     alert("il gioco dei dadi ha inizio");
 
     let numPlayer = Math.floor(Math.random() * 6) + 1;
-    alert (numPlayer);
-    let numComputer = 
+    alert ( "il tuo numero è: " + numPlayer);
+    let numComputer =  Math.floor(Math.random() * 6) + 1;
+    alert( " il numero del tuo avversario é: " + numComputer);
+    if( numPlayer > numComputer){
+        alert("HAI VITO");
+    }else{
+        alert ("HAI PERSO");
+    };
 
  }else{
-    alert("accesso negato");
+    alert("non puoi iniziare in gioco dei dadi");
  };
