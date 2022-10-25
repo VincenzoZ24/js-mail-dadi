@@ -14,5 +14,5 @@ let utente = prompt("scrivi la tua e-mail");
     };
 
  }else{
-    alert("non puoi iniziare in gioco dei dadi");
+    alert("non puoi iniziare in gioco dei dadi, l' e-mail non è corretta");
  };
