@@ -1,9 +1,7 @@
+const mail = ["zitov287@gmail.com", "pinco@gmail.com", "pietro24@gmail.com" ];
 let utente = prompt("scrivi la tua e-mail");
-let mail = ["zitov287@gmail.com", "pinco@gmail.com", "pietro24@gmail.com" ];
-for (let i = 0; i < mail.length; i++) {
-   if (utente == mail[i]) {
+ if (mail.includes(utente)) {
     console.log("accesso consentito");
-   }else{
-    console.log("accesso negato")
-   }
-}
+ }else{
+    alert("accesso negato");
+ }
