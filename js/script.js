@@ -1,4 +1,4 @@
-const mail = ["zitov287@gmail.com", "pinco@gmail.com", "pietro24@gmail.com" ];
+const mail = ["zitov287@gmail.com", "pinco@gmail.com", "pietro24@gmail.com", "deianaveronica1@gmail.com" ];
 let utente = prompt("scrivi la tua e-mail");
  if (mail.includes(utente)) {
     alert("il gioco dei dadi ha inizio");
